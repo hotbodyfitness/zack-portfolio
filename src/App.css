@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,88 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.headshot {
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#textGrid {
+  display: grid;
+  position: relative;
+  top: 40px;
+  grid-template-rows: 100px 500px;
+  grid-template-columns: 1000px;
+}
+
+#mainFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.email {
+  color: rgb(72, 249, 240);
+}
+
+.logos {
+  position: relative;
+  top: 9px;
+  margin-left: 15px;
+}
+
+#projectGrid {
+  position: relative;
+  top: -272px;
+  display: grid;
+  grid-row-gap: 40px;
+  grid-column-gap: 30px;
+  grid-template-columns: 485px 485px;
+  grid-template-rows: 485px 485px;
+}
+
+#projectTop {
+  position: relative;
+  top: -300px;
+  width: 1000px;
+  height: 700px;
+}
+
+.bigApp {
+  background: lightblue;
+  height: 485px;
+}
+
+.bigAppText {
+  background: lightgrey;
+  height: 200px;
+}
+
+#projectGrid div {
+  /* background: white; */
+}
+
+.appContainer {
+  width: 485px;
+}
+
+.miniApp {
+  height: 315px;
+  background: lightblue;
+}
+
+.miniAppText {
+  height: 170px;
+  background: lightgrey;
 }

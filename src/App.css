@@ -30,7 +30,7 @@
   position: relative;
   top: 40px;
   grid-template-rows: 100px 500px;
-  grid-template-columns: 1000px;
+  grid-template-columns: 950px;
 }
 
 #mainFlex {
@@ -52,21 +52,22 @@ p {
   position: relative;
   top: 9px;
   margin-left: 15px;
+  /* padding-right: 5px; */
 }
 
 #projectGrid {
   position: relative;
   top: -215px;
   display: grid;
-  grid-row-gap: 40px;
-  grid-column-gap: 40px;
-  grid-template-columns: 480px 480px;
+  grid-row-gap: 36px;
+  grid-column-gap: 36px;
+  grid-template-columns: 457px 457px;
 }
 
 #projectTop {
   position: relative;
-  top: -300px;
-  width: 1000px;
+  top: -296px;
+  width: 950px;
   height: 700px;
 }
 
@@ -87,20 +88,20 @@ p {
 
 .miniApp {
   height: 262px;
-  width: 480px;
+  width: 455px;
   background: white;
   margin-bottom: -7px;
 }
 
 .profile {
   height: 252px;
-  width: 470px;
+  width: 445px;
   border: 5px solid white;
 }
 
 .miniAppTextContainer {
   height: 170px;
-  width: 480px;
+  width: 456px;
   background: lightgrey;
   color: black;
 }
@@ -114,12 +115,12 @@ p {
   margin: 0;
   padding: 0 20px 10px;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 16.7px;
 }
 
 .linkApp {
   position: relative;
-  left: -178px;
+  left: -165px;
   font-size: 22px;
   font-weight: 500;
   text-decoration: none;
@@ -127,7 +128,7 @@ p {
 }
 .bigLinkApp {
   position: relative;
-  left: -438px;
+  left: -413px;
   font-size: 22px;
   font-weight: 500;
   text-decoration: none;

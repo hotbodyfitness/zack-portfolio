@@ -46,13 +46,6 @@ class App extends React.Component {
             <p>Hello! &nbsp; I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company starting in January 2020. &nbsp; Here is a sample of some of the apps that I've built. &nbsp; If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' className='email'> ZackMillerApps@gmail.com</a></p>
           </div>
           <div id='projectTop'>
-            {/* <img className='bdaySlides' src='https://i.imgur.com/r6zBVLw.png' alt='TBA'></img>
-            <img className='bdaySlides' src='https://i.imgur.com/4sf9hIL.png' alt='TBA' style={{ display: 'none' }}></img>
-            <img className='bdaySlides' src='https://i.imgur.com/4kZWZZB.png' alt='TBA' style={{ display: 'none' }}></img>
-            <img className='bdaySlides' src='https://i.imgur.com/s5mXnXc.png' alt='TBA' style={{ display: 'none' }}></img>
-            <img className='bdaySlides' src='https://i.imgur.com/nxEXvHy.png' alt='TBA' style={{ display: 'none' }}></img> */}
-            {/* <div className='bigAppText'></div> */}
-
             <div className='bigApp'>
               <a href='http://thebdayapp.com/' target='_blank'>
                 <img className='bdaySlides' src='https://i.imgur.com/r6zBVLw.png' alt='TBA'></img>
@@ -63,7 +56,7 @@ class App extends React.Component {
               </a>
               <div className='bigAppText'>
                 <p className='miniAppTitle'>The Birthday App</p>
-                <p className='miniAppText'>Built with: React, React Router, MongoDB, Mongoose, Express-Session, Passport, Bcrypt, jQuery, Webpack, HTML, CSS, AWS
+                <p className='miniAppText'>Built with: React, React Router, MongoDB, Express-Session, Passport, Bcrypt, jQuery, Webpack, HTML, CSS, AWS
                   <br></br> Includes multi-page routing, data persistance, dynamic displays, annimated sidebar that's resizable and hideable, auto-calculated ages, authentication with hashing, an intuitive UX, and a beautiful UI.
                 </p>
                 <a href='http://thebdayapp.com/' target='_blank' className='bigLinkApp'>Live App</a>
@@ -114,7 +107,7 @@ class App extends React.Component {
               </a>
               <div className='miniAppTextContainer'>
                 <p className='miniAppTitle'>Connect Four</p>
-                <p className='miniAppText'>Built with: React, Node.js, Express, Webpack, HTML, CSS
+                <p className='miniAppText'>Built with: React, Node, Express, Webpack, HTML, CSS
                   <br></br> Includes tracking wins and ties with a live scoreboard.
                 </p>
                 <a href='https://connect-four-zack.herokuapp.com/' target='_blank' className='linkApp'>Live App</a>

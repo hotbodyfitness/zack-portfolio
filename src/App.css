@@ -13,6 +13,10 @@
   color: white;
 }
 
+#emailLink {
+ color: white;
+}
+
 .container {
   display: flex;
   justify-content: left;
@@ -44,7 +48,7 @@ p {
   font-size: 24px;
 }
 
-.email {
+#email {
   color: rgb(72, 249, 240);
 }
 

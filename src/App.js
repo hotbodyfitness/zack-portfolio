@@ -13,7 +13,10 @@ class App extends React.Component {
     this.carousel();
 
     if (window.screen.width < 1300) { // for dynamic display rendering (mobile)
-      document.getElementById('helloWorld').innerHTML = `Hello! I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company. If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' className='email'> ZackMillerApps@gmail.com</a>`;
+      var introText = document.getElementById('helloWorld');
+      introText.innerHTML = `Hello! I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company. If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' id='email'> ZackMillerApps@gmail.com</a>`;
+      introText.style.fontSize = '20px';
+      document.getElementById('email').style.color = 'lightblue';
       document.getElementById('textGrid').style.marginBottom = '20px';
     }
   }
@@ -48,7 +51,7 @@ class App extends React.Component {
                 <a className='logos' href='https://www.linkedin.com/in/zkmiller/' target='_blank'><img src='https://img.icons8.com/color/40/000000/linkedin-circled.png'></img></a>
               </div>
             </div>
-            <p id='helloWorld'>Hello! &nbsp; I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company starting in January 2020. &nbsp; Here is a sample of some of the apps that I've built. &nbsp; If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' className='email'> ZackMillerApps@gmail.com</a></p>
+            <p id='helloWorld'>Hello! &nbsp; I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company starting in January 2020. &nbsp; Here is a sample of some of the apps that I've built. &nbsp; If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' id='email'> ZackMillerApps@gmail.com</a></p>
           </div>
           <div id='projectTop'>
             <div className='bigApp'>

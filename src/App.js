@@ -14,10 +14,10 @@ class App extends React.Component {
 
     if (window.screen.width < 1300) { // for dynamic display rendering (mobile)
       var introText = document.getElementById('helloWorld');
-      introText.innerHTML = `Hello! I'm a full-stack software engineer from the Bay Area looking for a full-time position with a great company. If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' id='email'> ZackMillerApps@gmail.com</a>`;
+      introText.innerHTML = `Hello! I'm a full-stack software engineer from the Bay Area looking for a full time position with a great company starting in 2020. If you'd like to get in touch, feel free to email me at: <a href='mailto:ZackMillerApps@gmail.com' id='email'> ZackMillerApps@gmail.com</a>`;
       introText.style.fontSize = '20px';
       document.getElementById('email').style.color = 'lightblue';
-      document.getElementById('textGrid').style.marginBottom = '20px';
+      document.getElementById('textGrid').style.marginBottom = '10px';
     }
   }
 
